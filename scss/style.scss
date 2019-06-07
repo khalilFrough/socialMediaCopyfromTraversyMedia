@@ -49,3 +49,21 @@ img {
     }
   }
 }
+
+// landing classes
+.landing {
+  position: relative;
+  background-image: url(/dist/img/code.jpg);
+  height: 100vh;
+  &-inner {
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
